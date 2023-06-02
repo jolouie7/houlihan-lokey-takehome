@@ -25,11 +25,6 @@ try {
     theme: "snow",
   });
 
-  const readonlyEditor = new Quill("#readonly-editor", {
-    theme: "bubble",
-    readOnly: true,
-  });
-
   const submitButton = document.querySelector(".submit-button");
   if (!submitButton) {
     throw new Error("Submit button not found");

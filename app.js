@@ -47,9 +47,6 @@ try {
 
         // draw the editor content on the canvas
         ctx.drawImage(canvasContent, 0, 0);
-
-        // clear the editor content
-        editor.setText("");
       })
       .catch((error) => {
         console.error("Error occurred during canvas conversion: ", error);

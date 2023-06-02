@@ -18,10 +18,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.ql-toolbar.ql-snow {
-  width: 550px;
-}
-
+.ql-toolbar.ql-snow,
 #editor {
   width: 550px;
 }

@@ -53,6 +53,12 @@ h1 {
   font-family: "Roboto";
 }
 
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="monospace"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="monospace"]::before {
+  content: "Monospace";
+  font-family: "Monospace";
+}
+
 /****************************************************
 Set the font-family content used for the HTML content.
 *****************************************************/
@@ -62,4 +68,8 @@ Set the font-family content used for the HTML content.
 
 .ql-font-roboto {
   font-family: "Roboto";
+}
+
+.ql-font-monospace {
+  font-family: "Monospace";
 }

@@ -1,11 +1,11 @@
 let Font = Quill.import("formats/font");
-Font.whitelist = ["arial", "roboto"];
+Font.whitelist = ["arial", "roboto", "monospace"];
 Quill.register(Font, true);
 
 const toolbarOptions = [
   [{ header: [1, 2, 3, 4, 5, 6, false] }],
   ["bold", "italic", "underline"],
-  [{ font: ["", "arial", "roboto"] }],
+  [{ font: ["", "arial", "roboto", "monospace"] }],
   [{ size: ["small", false, "large", "huge"] }],
   [{ align: [] }],
   ["link", "image", "code-block"],

@@ -38,7 +38,8 @@ h1 {
 /* Set droplist names - -item is the currently selected font, -label is the font's appearance in the droplist*/
 .ql-snow .ql-picker.ql-font .ql-picker-label[data-value=""]::before,
 .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=""]::before {
-  content: "Default";
+  content: "Sans-serif";
+  font-family: "Sans-serif";
 }
 
 .ql-snow .ql-picker.ql-font .ql-picker-label[data-value="arial"]::before,

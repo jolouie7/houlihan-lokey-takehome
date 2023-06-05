@@ -5,14 +5,50 @@ Quill.register(Font, true);
 
 // Register custom font sizes
 var Size = Quill.import("attributors/style/size");
-Size.whitelist = ["12px", "14px", "16px", "18px"];
+Size.whitelist = [
+  "12px",
+  "13px",
+  "14px",
+  "15px",
+  "16px",
+  "17px",
+  "18px",
+  "19px",
+  "20px",
+  "24px",
+  "28px",
+  "32px",
+  "48px",
+  "52px",
+  "64px",
+];
 Quill.register(Size, true);
 
 const toolbarOptions = [
   [{ header: [1, 2, 3, 4, 5, 6, false] }],
   ["bold", "italic", "underline"],
   [{ font: ["", "arial", "roboto", "monospace"] }],
-  [{ size: ["12px", "14px", "16px", "18px"] }],
+  [
+    {
+      size: [
+        "12px",
+        "13px",
+        "14px",
+        "15px",
+        "16px",
+        "17px",
+        "18px",
+        "19px",
+        "20px",
+        "24px",
+        "28px",
+        "32px",
+        "48px",
+        "52px",
+        "64px",
+      ],
+    },
+  ],
   [{ align: [] }],
   ["link", "image", "code-block"],
 ];

@@ -1,6 +1,12 @@
 // Register custom fonts
 let Font = Quill.import("formats/font");
-Font.whitelist = ["arial", "roboto", "monospace"];
+Font.whitelist = [
+  "arial",
+  "roboto",
+  "monospace",
+  "segoe-ui",
+  "segoe-ui-semibold",
+];
 Quill.register(Font, true);
 
 // Register custom font sizes
@@ -27,7 +33,18 @@ Quill.register(Size, true);
 const toolbarOptions = [
   [{ header: [1, 2, 3, 4, 5, 6, false] }],
   ["bold", "italic", "underline"],
-  [{ font: ["", "arial", "roboto", "monospace"] }],
+  [
+    {
+      font: [
+        "",
+        "arial",
+        "roboto",
+        "monospace",
+        "segoe-ui",
+        "segoe-ui-semibold",
+      ],
+    },
+  ],
   [
     {
       size: [

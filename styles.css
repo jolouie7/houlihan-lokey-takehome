@@ -57,6 +57,45 @@ h1 {
   font-family: "Monospace";
 }
 
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="segoe-ui"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="segoe-ui"]::before {
+  content: "Segoe UI";
+  font-family: "Segoe UI";
+}
+
+.ql-snow
+  .ql-picker.ql-font
+  .ql-picker-label[data-value="segoe-ui-semibold"]::before,
+.ql-snow
+  .ql-picker.ql-font
+  .ql-picker-item[data-value="segoe-ui-semibold"]::before {
+  content: "Segoe UI Semibold";
+  font-family: "Segoe UI Semibold";
+}
+
+/****************************************************
+Set the font-family content used for the HTML content.
+*****************************************************/
+.ql-font-arial {
+  font-family: "Arial";
+}
+
+.ql-font-roboto {
+  font-family: "Roboto";
+}
+
+.ql-font-monospace {
+  font-family: "Monospace";
+}
+
+.ql-font-segoe-ui {
+  font-family: "Segoe UI";
+}
+
+.ql-font-segoe-ui-semibold {
+  font-family: "Segoe UI Semibold";
+}
+
 /* Set droplist names - -item is the currently selected font size, -label is the font size's appearance in the droplist*/
 .ql-snow .ql-picker.ql-size .ql-picker-label[data-value="12px"]::before,
 .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="12px"]::before {
@@ -146,21 +185,6 @@ h1 {
 .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="64px"]::before {
   content: "64px";
   font-size: 64px;
-}
-
-/****************************************************
-Set the font-family content used for the HTML content.
-*****************************************************/
-.ql-font-arial {
-  font-family: "Arial";
-}
-
-.ql-font-roboto {
-  font-family: "Roboto";
-}
-
-.ql-font-monospace {
-  font-family: "Monospace";
 }
 
 .submit-button {

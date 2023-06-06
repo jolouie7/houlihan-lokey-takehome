@@ -93,7 +93,8 @@ Set the font-family content used for the HTML content.
 }
 
 .ql-font-segoe-ui-semibold {
-  font-family: "Segoe UI Semibold";
+  font-family: "Segoe UI";
+  font-weight: 600;
 }
 
 /* Set droplist names - -item is the currently selected font size, -label is the font size's appearance in the droplist*/
